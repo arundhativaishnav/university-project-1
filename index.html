@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>working days calculator </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  
+</head>
+<body>
+    <div class="container">
+        <h1>working days calculator </h1>
+        <form id="scheduleForm">
+            <label for="startDate">Term Start Date:</label>
+            <input type="date" id="startDate" required>
+            
+            <label for="endDate">Term End Date:</label>
+            <input type="date" id="endDate" required>
+            
+            <label>Working Days:</label>
+            <div class="working-days">
+                <label><input type="checkbox" name="workingDays" value="monday"> Monday</label>
+                <label><input type="checkbox" name="workingDays" value="tuesday"> Tuesday</label>
+                <label><input type="checkbox" name="workingDays" value="wednesday"> Wednesday</label>
+                <label><input type="checkbox" name="workingDays" value="thursday"> Thursday</label>
+                <label><input type="checkbox" name="workingDays" value="friday"> Friday</label>
+                <label><input type="checkbox" name="workingDays" value="saturday"> Saturday</label>
+                <label><input type="checkbox" name="workingDays" value="sunday"> Sunday</label>
+            </div>
+            
+            <button type="submit">Generate </button>
+        </form>
+    </div>
+</body>
+</html>
